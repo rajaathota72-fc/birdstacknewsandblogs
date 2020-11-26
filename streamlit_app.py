@@ -46,7 +46,7 @@ if checkbox == "Automation Edge":
     st.success("Successfully scraped the recent article")
 if checkbox == "Softomotive":
     x = choose_blog("https://www.softomotive.com/blog-news-events/")
-    path = x[49
+    path = x[49]
     st.success("Successfully scraped the recent article")
 if checkbox == "SAP":
     x = choose_blog("https://blogs.sap.com/tag/rpa/")

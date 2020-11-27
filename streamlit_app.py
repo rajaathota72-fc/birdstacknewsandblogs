@@ -27,7 +27,7 @@ st.title("Birdstack News and Blogs - Inshorts")
 st.sidebar.title("Choose the Webpage")
 st.sidebar.image("RPAnews.png",width = 300)
 st.write("Select the website from where you want recent blog / News to be summarised")
-checkbox = st.sidebar.selectbox("Select one blogspot",("dropdown to select","Uipath","RPA today","Automation Anywhere","Automation Edge","Softomotive","SAP","Forrester"))
+checkbox = st.sidebar.selectbox("Select one blogspot",("dropdown to select","Uipath","RPA today","Automation Anywhere","Automation Edge","SAP","Forrester"))
 if checkbox == "Uipath":
     x = choose_blog("https://www.uipath.com/blog/")
     path = x[89]
